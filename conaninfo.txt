@@ -1,0 +1,30 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=5.4
+    os=Linux
+
+[requires]
+    gtest/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=5.4
+    os=Linux
+
+[full_requires]
+    gtest/1.7.0@lasote/stable:f5a6882590d137de693642227ed35e8e26da3dac
+
+[full_options]
+    gtest:shared=True
+
+[scope]
+    dev=True
